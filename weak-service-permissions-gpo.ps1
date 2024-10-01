@@ -44,7 +44,7 @@ function Get-ServicePermissions {
         }
     }
     catch {
-        Write-Output "Failed to query permissions for service $ServiceName: $_"
+        Write-Output "Failed to query permissions for service $ServiceName : $_"
     }
 
     return $results
