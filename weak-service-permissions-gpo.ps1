@@ -1,3 +1,5 @@
+# Proof of concept code - draft - not ready for production
+
 # Function to extract the executable path from service PathName
 function PathFromServicePathName($pathName) {
     if ($pathName.StartsWith('"')) {
